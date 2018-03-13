@@ -4,8 +4,6 @@ import '../styles/index.css';
 import { fetchPhotos } from '../actions';
 import Photo from './Photo';
 
-
-
 class App extends Component {
 
   componentWillMount(){
@@ -18,7 +16,7 @@ class App extends Component {
             <nav className="navbar navbar-default">
                 <div className="container-fluid">
                 <div className="navbar-header">
-                    <a className="navbar-brand" >Lendi</a>
+                    <a style={{"cursor": "pointer"}} target="_blank" href="http://www.lendi.com.au" className="navbar-brand" >Lendi</a>
                 </div>
                 </div>
             </nav>
