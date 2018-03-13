@@ -4,6 +4,8 @@ import '../styles/index.css';
 import { fetchPhotos } from '../actions';
 import Photo from './Photo';
 
+
+
 class App extends Component {
 
   componentWillMount(){
@@ -22,9 +24,9 @@ class App extends Component {
             </nav>
             <div className="photos-container row text-center text-lg-left">
                 {
-                this.props.photos.map((photo, index) => {
+                this.props.photos.map((photo) => {
                     return (
-                        <Photo key={index} photo={photo} />
+                        <Photo key={photo.id} photo={photo} />
                     )
                 })
                 }
