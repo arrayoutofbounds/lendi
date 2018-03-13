@@ -11,6 +11,12 @@ body {
     margin-bottom: 50px;
 }
 
+.photo-button {
+    cursor: pointer;
+    font-style: italic;
+    padding: 10px;
+  }
+
 
 div.gallery {
     margin: 5px;

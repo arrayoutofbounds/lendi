@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import { RECEIVE_PHOTOS } from '../actions';
+import { RECEIVE_PHOTOS } from './actionTypes';
 
 function photos(state = [], action) {
   switch(action.type) {

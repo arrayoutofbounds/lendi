@@ -1,0 +1,1 @@
+export const RECEIVE_PHOTOS = 'RECEIVE_PHOTOS';
