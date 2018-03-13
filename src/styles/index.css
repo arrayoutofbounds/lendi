@@ -1,9 +1,13 @@
 body {
-    
+    background-color: MistyRose ;
   }
   
 .photos-container{
     padding: 5%;
+}
+
+.pitem{
+    margin-bottom: 50px;
 }
 
 

@@ -20,7 +20,7 @@ class App extends Component {
                 </div>
                 </div>
             </nav>
-            <div className="photos-container">
+            <div className="photos-container row text-center text-lg-left">
                 {
                 this.props.photos.map((photo, index) => {
                     return (
