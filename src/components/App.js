@@ -13,7 +13,7 @@ class App extends Component {
       this.state = {
         elements : [],
         isInfiniteLoading: false
-      };
+      } ;
 
       this.handleInfiniteLoad = this.handleInfiniteLoad.bind(this);
       this.buildElements = this.buildElements.bind(this);

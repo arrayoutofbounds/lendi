@@ -1,5 +1,5 @@
 import { RECEIVE_PHOTOS } from './actionTypes';
-
+import fetchPhotosJson from '../../api/photosApi';
 
 function receivePhotos(json) {
     const photos = json;
@@ -10,10 +10,7 @@ function receivePhotos(json) {
     }
   }
   
-  function fetchPhotosJson() {
-    return fetch('https://jsonplaceholder.typicode.com/photos')
-      .then(response => response.json())
-  }
+  
   
   export function fetchPhotos() {
     return function(dispatch) {

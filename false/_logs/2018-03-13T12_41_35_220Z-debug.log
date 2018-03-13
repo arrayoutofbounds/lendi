@@ -1,0 +1,40 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/heroku/bin/node',
+1 verbose cli   '/home/anmol/.nvm/versions/node/v9.4.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'test',
+1 verbose cli   '--no-cache' ]
+2 info using npm@5.6.0
+3 info using node@v8.7.0
+4 verbose run-script [ 'pretest', 'test', 'posttest' ]
+5 info lifecycle lendi@0.1.0~pretest: lendi@0.1.0
+6 info lifecycle lendi@0.1.0~test: lendi@0.1.0
+7 verbose lifecycle lendi@0.1.0~test: unsafe-perm in lifecycle true
+8 verbose lifecycle lendi@0.1.0~test: PATH: /home/anmol/.nvm/versions/node/v9.4.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/anmol/Desktop/lendi/node_modules/.bin:/usr/local/heroku/bin:/home/anmol/.nvm/versions/node/v9.4.0/bin:/home/anmol/.rvm/gems/ruby-2.2.3/bin:/home/anmol/.rvm/gems/ruby-2.2.3@global/bin:/home/anmol/.rvm/rubies/ruby-2.2.3/bin:/home/anmol/catkin_ws/devel/bin:/opt/ros/indigo/bin:/home/anmol/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/jdk1.8.0_77/bin:/usr/lib/jvm/jdk1.8.0_77/db/bin:/usr/lib/jvm/jdk1.8.0_77/jre/bin:/home/anmol/Desktop/Research/sjdk-v2.0-151-g539eeba/bin:/home/anmol/jdk1.8.0_65/bin:/home/anmol/.rvm/bin:/usr/local/go/bin:/home/anmol/.rvm/bin:/home/anmol/Desktop/Research/sjdk-v2.0-151-g539eeba/bin:/home/anmol/jdk1.8.0_65/bin:/home/anmol/Desktop/work/peerlink_golang//bin
+9 verbose lifecycle lendi@0.1.0~test: CWD: /home/anmol/Desktop/lendi
+10 silly lifecycle lendi@0.1.0~test: Args: [ '-c', 'jest' ]
+11 silly lifecycle lendi@0.1.0~test: Returned: code: 1  signal: null
+12 info lifecycle lendi@0.1.0~test: Failed to exec test script
+13 verbose stack Error: lendi@0.1.0 test: `jest`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/home/anmol/.nvm/versions/node/v9.4.0/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:285:16)
+13 verbose stack     at emitTwo (events.js:125:13)
+13 verbose stack     at EventEmitter.emit (events.js:213:7)
+13 verbose stack     at ChildProcess.<anonymous> (/home/anmol/.nvm/versions/node/v9.4.0/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at emitTwo (events.js:125:13)
+13 verbose stack     at ChildProcess.emit (events.js:213:7)
+13 verbose stack     at maybeClose (internal/child_process.js:927:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose pkgid lendi@0.1.0
+15 verbose cwd /home/anmol/Desktop/lendi
+16 verbose Linux 3.13.0-37-generic
+17 verbose argv "/usr/local/heroku/bin/node" "/home/anmol/.nvm/versions/node/v9.4.0/bin/npm" "run" "test" "--no-cache"
+18 verbose node v8.7.0
+19 verbose npm  v5.6.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error lendi@0.1.0 test: `jest`
+22 error Exit status 1
+23 error Failed at the lendi@0.1.0 test script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]
