@@ -6,7 +6,9 @@
     "axios": "^0.18.0",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
+    "expect": "^22.4.0",
     "fetch-mock": "^6.1.0",
+    "identity-obj-proxy": "^3.0.0",
     "react": "^16.2.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
@@ -20,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "jest --coverage",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
@@ -36,7 +38,7 @@
   "jest": {
     "testEnvironment": "node",
     "moduleNameMapper": {
-      ".*\\.less$": "<rootDir>/pathToDummyFile/dummy.js"
+      "\\.(css|less)$": "identity-obj-proxy"
     },
     "transformIgnorePatterns": [
       "node_modules/(?!(react-native|my-project|redux-persist)/)"

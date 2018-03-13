@@ -11,6 +11,4 @@ const store = configureStore();
 store.subscribe(() => console.log('store', store.getState()));
 
 
-ReactDOM.render(<Provider store={store}>
-    <App />
-  </Provider>, document.getElementById('root'));
+ReactDOM.render(<App store={store}/>, document.getElementById('root'));
