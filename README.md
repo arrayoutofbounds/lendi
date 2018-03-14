@@ -45,7 +45,7 @@ https://lendi.herokuapp.com/
 
 ###  Future work
 
-One can never do enough to be become the best! Ideally, over time I would like to add a feature that allows the user to select some of the albums. Furthermore, the app can be optimised further by testing all user interactions ( such as hover, scroll etc) and retreiving analytics on those actions! 
+One can never do enough to become the best! Ideally, over time I would like to add a feature that allows the user to select some of the albums. Furthermore, the app can be optimised further by testing all user interactions ( such as hover, scroll etc) and retreiving analytics on those actions! 
 
 Thank you!
 
