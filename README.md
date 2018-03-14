@@ -2,6 +2,10 @@
 
 This web application retrieves data from an api and displays it.
 
+![alt text](https://github.com/arrayoutofbounds/lendi/blob/master/screenshots/1.png?raw=true "Screenshot")
+
+![alt text](https://github.com/arrayoutofbounds/lendi/blob/master/screenshots/3.png?raw=true "Mobile")
+
 ##### FUN FACT
 Click the lendi tag on the navbar and see what happens! :)
 
