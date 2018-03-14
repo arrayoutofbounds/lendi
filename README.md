@@ -2,7 +2,7 @@
 
 This web application retrieves data from an api and displays it.
 
-## FUN FACT
+##### FUN FACT
 Click the lendi tag on the navbar and see what happens! :)
 
 ### Technologies used:
