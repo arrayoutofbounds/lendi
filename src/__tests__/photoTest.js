@@ -10,16 +10,6 @@ import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
 
-// const initialState = {}; 
-
-// const mockStore = configureStore();
-// let wrapper;
-// let store;
-// beforeEach(() => {
-//   store = mockStore(initialState)
-//   wrapper =  shallow( <Photo />);
-//  })
-
 const photo = {
     "albumId": 1,
         "id": 1,
@@ -28,17 +18,27 @@ const photo = {
         "thumbnailUrl": "http://placehold.it/150/92c952"
 }
 
+let component;
+beforeEach(() => {
+    component =  shallow( <Photo key={1} photo={photo} />)
+   })
+
 describe("<Photo/> Exists", () =>{
   it("renders 1 photo component", () => {
-    const component = shallow(<Photo key={1} photo={photo} />);
     expect(component.length).toEqual(1);
   });
   it("renders props correctly", () => {
-    const component = shallow(<Photo key={1} photo={photo} />);
     expect(component.instance().props.photo).toBe(photo);
   });
   it("matches the snapshot", () => {
     const tree = renderer.create(<Photo key={1} photo={photo} />).toJSON();
     expect(tree).toMatchSnapshot();
-  })
+  });
+  it("has image tag", () => {
+    expect(component.find('img').length).toBe(1);
+  });
+  it("simulate clicks on a tags", () => {
+    component.find('.a1').simulate('click');
+    component.find('.a2').simulate('click');
+  });
 });

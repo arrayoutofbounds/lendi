@@ -44,7 +44,7 @@ describe("<App/> Exists", () =>{
   it("renders 1 app component", () => {
     expect(wrapper.length).toEqual(1);
   });
-  it("renders navbar", () =>{
-    
-  });
+  // it("r", () =>{
+  //   console.log(wrapper.instance().handleInfiniteLoad()); // true
+  // });
 });

@@ -11,11 +11,12 @@ exports[`<Photo/> Exists matches the snapshot 1`] = `
   >
     <img
       alt="\${this.props.photo.title}"
-      className="img-fluid img-thumbnail"
+      className="img-fluid img-thumbnail a1"
       src="http://placehold.it/150/92c952"
     />
   </a>
   <a
+    className="a2"
     href="http://placehold.it/600/92c952"
     target="_blank"
   >

@@ -38,7 +38,6 @@ describe('async actions', () => {
 
     return store.dispatch(fetchPhotos()).then((res) => {
       // return of async actions
-      //console.log(res.photos.slice(0,2));
       res.photos = res.photos.slice(0,2);
       expect(res).toEqual(expectedActions)
     });
