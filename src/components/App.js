@@ -68,8 +68,8 @@ export class App extends Component {
                 </div>
             </nav>
 
-            <Infinite elementHeight={40}
-                         infiniteLoadBeginEdgeOffset={100}
+            <Infinite elementHeight={600}
+                         infiniteLoadBeginEdgeOffset={400}
                          onInfiniteLoad={this.handleInfiniteLoad}
                          loadingSpinnerDelegate={this.elementInfiniteLoad()}
                          isInfiniteLoading={this.state.isInfiniteLoading}
