@@ -2,7 +2,7 @@
 
 This web application retrieves data from an api and displays it.
 
-![alt text](https://github.com/arrayoutofbounds/lendi/blob/master/screenshots/1.png?raw=true "Screenshot")
+![alt text](https://github.com/arrayoutofbounds/lendi/blob/master/screenshots/1.png?raw=true "Web")
 
 ![alt text](https://github.com/arrayoutofbounds/lendi/blob/master/screenshots/3.png?raw=true "Mobile")
 
@@ -27,15 +27,17 @@ Run:
 
 ### Testing
 
-Tests were written using jest and enzyme. Snapshote and unit tests are written to ensure coverage.
+Tests were written using jest and enzyme. Snapshote and unit tests are written to ensure coverage. Other plugins were also used to ensure optimim output.
 
 `yarn test` or `npm test`
 
+![alt text](https://github.com/arrayoutofbounds/lendi/blob/master/screenshots/4.png?raw=true "Coverage")
+
 ##### Issues Encountered
 
-Some 3rd party libraries are using an older versions of react,react-dom,react-test-renderer etc. This made snapshot and component testing more challenging! 
+Some 3rd party libraries are using an older versions of react,react-dom,react-test-renderer etc. This made snapshot testing  the app component quite challenging! 
 
-Another challenge was testing components that use redux. Enzyme and Jest had some intricacies with configurations and acesss that took a while to navigate. 
+Another challenge encountered was the testing of components that use redux. Enzyme and Jest had many configuration and setup blindspots which took a while to navigate. 
 
 ### Deployment
 
