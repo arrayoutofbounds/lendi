@@ -6,6 +6,20 @@ This web application retrieves data from an api and displays it.
 
 ![alt text](https://github.com/arrayoutofbounds/lendi/blob/master/screenshots/3.png?raw=true "Mobile")
 
+### Project Structure
+
+![alt text](https://github.com/arrayoutofbounds/lendi/blob/master/screenshots/5.png?raw=true "Structure")
+
+Public - just has the main index.html file along with some that came with create-react-app.
+Src - Has the source code of the entire project
+tests - has all the tests and its data
+api - has the api call to the endpoint
+components - has all the main components
+photos - has actions, actiontypes, reducer for photos component
+stores - configures the main store for the app
+styles - has the css file for the application
+index.js (in src) and setupTests.js - entry to the application and set up of tests respectively.
+
 ##### FUN FACT
 Click the lendi tag on the navbar and see what happens! :)
 
