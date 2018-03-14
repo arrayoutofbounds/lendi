@@ -24,10 +24,6 @@ class App extends Component {
     return this.props.photos.slice(starting, ending);
   }
 
-  componentWillMount(){
-    
-  }
-  
   componentDidMount(){
     this.props.fetchPhotos().then(()=>{
         this.setState({
@@ -35,10 +31,6 @@ class App extends Component {
             isInfiniteLoading: false
           })
     })
-  }
-
-  componentDidUpdate(){
-   
   }
 
   handleInfiniteLoad() {

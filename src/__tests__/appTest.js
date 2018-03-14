@@ -1,6 +1,8 @@
 import React from 'react';
 import App from '../components/App';
+import Photo from '../components/Photo';
 import expect from 'expect';
+import renderer from 'react-test-renderer';
 // import Enzyme from "enzyme";
 // jest.mock("../styles/index.css", () => jest.fn());
 // import Adapter from 'enzyme-adapter-react-16';
@@ -20,7 +22,7 @@ import configureStore from 'redux-mock-store'
 // const store = configureStore();
 
 
-import { configure, shallow } from 'enzyme';
+import { configure, shallow, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
@@ -39,13 +41,10 @@ beforeEach(() => {
 
 
 describe("<App/> Exists", () =>{
-  it("renderse 1 app component", () => {
+  it("renders 1 app component", () => {
     expect(wrapper.length).toEqual(1);
   });
-});
-
-describe("<Photo />> Exists", () =>{
-  it("renderse 1 app component", () => {
-    expect(wrapper.length).toEqual(1);
+  it("renders navbar", () =>{
+    
   });
 });
