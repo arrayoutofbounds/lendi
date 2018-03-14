@@ -28,7 +28,7 @@ styles - has the css file for the application
 
 index.js (in src) and setupTests.js - entry to the application and set up of tests respectively.
 
-##### FUN FACT
+### FUN FACT
 Click the lendi tag on the navbar and see what happens! :)
 
 ### Technologies used:
