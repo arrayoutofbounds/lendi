@@ -4,8 +4,9 @@ import '../styles/index.css';
 import { fetchPhotos } from '../stores/photos/actions';
 import Photo from './Photo';
 import Infinite from 'react-infinite';
+export const NUM_PHOTOS = 20;
 
-class App extends Component {
+export class App extends Component {
 
   constructor(props){
       super(props);
@@ -27,7 +28,7 @@ class App extends Component {
   componentDidMount(){
     this.props.fetchPhotos().then(()=>{
         this.setState({
-            elements:this.buildElements(0,20),
+            elements:this.buildElements(0,NUM_PHOTOS),
             isInfiniteLoading: false
           })
     })
@@ -41,7 +42,7 @@ class App extends Component {
 
         setTimeout(()=> {
             var elemLength = this.state.elements.length,
-                newElements = this.buildElements(elemLength, elemLength + 20);
+                newElements = this.buildElements(elemLength, elemLength + NUM_PHOTOS);
             this.setState({
                 isInfiniteLoading: false,
                 elements: this.state.elements.concat(newElements)
@@ -88,8 +89,10 @@ class App extends Component {
   }
 }
 
-function mapStateToProps(state) {
-    return state;
+function mapStateToProps({photos}) {
+    return {
+        photos
+    };
   }
 
 

@@ -1,6 +1,6 @@
 import fetchPhotosJson from '../api/photosApi';
 
-describe("api ", () => {
+describe("api", () => {
     it("returns data", () => {
         fetchPhotosJson().then(data=>{
             expect(data.length).toBeGreaterThan(0);
@@ -11,5 +11,4 @@ describe("api ", () => {
             expect(data.length).toBe(5000);
         });
     });
-
 });

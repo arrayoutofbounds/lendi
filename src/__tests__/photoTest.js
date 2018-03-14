@@ -3,8 +3,6 @@ import Photo from '../components/Photo';
 import expect from 'expect';
 import configureStore from 'redux-mock-store'
 import renderer from 'react-test-renderer';
-
-
 import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
@@ -40,5 +38,8 @@ describe("<Photo/> Exists", () =>{
   it("simulate clicks on a tags", () => {
     component.find('.a1').simulate('click');
     component.find('.a2').simulate('click');
+  });
+  it("matches the photo title from the object given", () => {
+    expect(component.find('.photo-title').text()).toEqual(photo.title);
   });
 });

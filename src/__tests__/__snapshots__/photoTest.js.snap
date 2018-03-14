@@ -21,6 +21,7 @@ exports[`<Photo/> Exists matches the snapshot 1`] = `
     target="_blank"
   >
     <p
+      className="photo-title"
       style={
         Object {
           "marginTop": "10px",
