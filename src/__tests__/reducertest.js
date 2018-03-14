@@ -1,7 +1,7 @@
 import {photos} from '../stores/photos/reducers';
 
 /**
- * Checks that the reducer has a default state
+ * Checks that the reducer has a default state and recieves photos
  */
 describe("reducer", () => {
     it("has a default state", () => {
