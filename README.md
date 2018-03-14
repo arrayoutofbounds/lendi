@@ -11,7 +11,7 @@ Click the lendi tag on the navbar and see what happens! :)
 * Jest
 * Enzyme
 
-To ensure that the application loaded efficiently, client side lazy loading was used.
+To ensure that the application loaded efficiently, client side lazy loading was used. To ensure responsiveness, bootsrap and react-bootstrap were used.
 
 Install dependencies:
 
@@ -39,4 +39,4 @@ https://lendi.herokuapp.com/
 
 Thank you!
 
-Anmol Desai
+- Anmol Desai
