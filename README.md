@@ -38,4 +38,5 @@ Another challenge was testing components that use redux. Enzyme and Jest had som
 https://lendi.herokuapp.com/
 
 Thank you!
+
 Anmol Desai
