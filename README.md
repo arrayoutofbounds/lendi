@@ -1,4 +1,21 @@
-1. Data loads from API
-2. Component loads without issue
-3. Photo thumbnail url and url works
+# Photo Retrival
 
+This web application retrieves data from an api and displays it.
+
+##### Technologies used:
+⋅⋅* React
+⋅⋅* Redux 
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://lendi.herokuapp.com/
